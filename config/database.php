@@ -1,7 +1,7 @@
 <?php
     // Almacena instancia de la conexion
     class DBClass{
-        private $conn; // 
+        private $conn;// 
         // credenciales de acceso al servidor
         private $host       = 'localhost';  // lo apunta al localhost que es nuestro ambito de desarrollo
         private $dbName     = 'db_sistemafebo';
