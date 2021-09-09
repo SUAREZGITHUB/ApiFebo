@@ -1,5 +1,4 @@
 <?php
-    // Almacena instancia de la conexion.*/
     // Almacena instancia de la conexion
     class DBClass{
         private $conn; // 
