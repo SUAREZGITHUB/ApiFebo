@@ -13,7 +13,7 @@
             // le asigno mi cadena de conexion al PDO segun los parametros requeridos
             $this->conn = new PDO('myql:host=' .$this->host. ';dbname=' .$this->dbname. ';',$this->username, $this->pwd);
             $this->conn->exec("set names utf8");// que utilice la codificacion utf8
-            return $this->conn; // que vuelque y retorne todos los valores cargados a conn 
+            return $this->conn; // que vuelque y retorne todos los valores cargados a conn
 
         }
 
