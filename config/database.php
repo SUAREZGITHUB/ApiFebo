@@ -1,5 +1,5 @@
 <?php
-    // Almacena instancia de la conexion
+    //Almacena instancia de la conexion
     class DBClass{
         private $conn;// 
         // credenciales de acceso al servidor
